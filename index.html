@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>  
+</head>
+
+<body>
+   
+    <div class="login-container">
+        <h3>Enter your password</h3>
+        <br>
+        <div class="profile-container">
+            <img src="image/pfp1.png" alt="profile picture" id="pfp">
+            <aside id="personDetails">
+                <h6>Full Stack Developer</h6>
+                <h5>Dudley Mashava</h5>
+            </aside>
+        </div>
+        <div class="password-container">
+            <!--<form>-->
+                <label for="pass">Password</label>
+                <br>
+                <img src="image/padlock.png" id="padlock" alt="padlock">
+                <input type="password" name="password" id="pass">
+                <img src="image/visible.jpg" id="invisible" alt="invisible" onclick="changeIcon()">
+                <br>
+                <input type="checkbox" name="toggle" id="toggle">
+                <label for="toggle">Stay signed in</label>
+                <aside id="button">
+                    <input type="button" value="Continue">
+                </aside>
+            <!--</form>-->
+        </div>
+        <br>
+        <a href="./pass.html"><u>Reset Password</u></a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+* {
+    box-sizing: content-box;
+    color: rgb(0, 0, 122);
+}
+body {
+    background-color: rgb(242, 234, 234);
+}
+
+.login-container {
+    height: 280px;
+    width: 260px;
+    margin: 200px;
+    background-color: white;
+    border: 0 solid;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 1px 1px 1px 1px rgb(195, 193, 193);
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+h5 {
+    margin: 0;
+    padding: 0; 
+}
+h6 {
+    margin: 0;
+    padding: 0; 
+    font-style: normal;
+}
+
+aside {
+    display: inline-block;
+    margin-bottom: 1px;
+    bottom: 1em;
+    border: 1px solid red
+}
+
+#personDetails {
+    height: 30px;
+    margin-bottom: 6px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    display: inline-block;
+    border: 1px solid red;
+}
+
+#pfp {
+    width: 35px;
+    border-radius: 50%;
+}
+
+#padlock {
+    position: absolute;
+    border:1px solid red;
+    padding-top:10px ;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    height: 15px;
+    width: 15px;
+    aspect-ratio: auto;
+}
+
+#visible {
+    position: absolute;
+    border:1px solid red;
+    padding-top:10px ;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    height: 15px;
+    width: 15px;
+    aspect-ratio: auto;
+}
+
+#invisible {
+    position: absolute;
+    border:1px solid red;
+    padding-top:10px ;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    height: 15px;
+    width: 15px;
+    aspect-ratio: auto;
+}
+
+div img:hover {
+    cursor: pointer;
+}
+
+.profile-container {
+    display: block;
+}
+
+label {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#pass {
+    width: 70%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-left: 2em;
+    padding-top: 10px; 
+}
+input[type*='button'] {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid;
+    display: inline-block;
+}
+
+#button {
+    display: inline-block;
+    margin-left: 15%;
+}
+
+a {
+    font-size: 10px;
+}
+
+a:hover {
+    color: purple !important;
+}
